@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 60px;
+  background: #c50f0f;
+  color: white;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: blue;
+  padding: 16px;
+}
+
+.content {
+  flex: 1;
+  padding: 16px;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}

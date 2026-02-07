@@ -1,0 +1,31 @@
+.card {
+  width: 200px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.card-top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.card-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-title {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #222;
+}

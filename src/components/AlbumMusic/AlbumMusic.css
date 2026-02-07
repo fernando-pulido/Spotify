@@ -1,0 +1,17 @@
+.content {
+  flex: 1;
+  background-color: aqua;
+  padding: 16px;
+}
+
+.Cards {
+  background-color: rgb(72, 255, 0);
+}
+
+.Cards-autores {
+  background-color: rgb(98, 0, 255);
+}
+
+.Cards-albums {
+  background-color: rgb(255, 0, 170);
+}
