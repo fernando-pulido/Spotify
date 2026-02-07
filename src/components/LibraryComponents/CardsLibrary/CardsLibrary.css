@@ -1,24 +1,29 @@
-.round-card {
-  width: 160px;
-  text-align: center;
-  cursor: pointer;
+.round-full-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.6); /* estilo Spotify */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.round-image {
-  width: 160px;
-  height: 160px;
+.round-full-card:hover {
+  transform: scale(1.05); /* efecto de zoom */
+}
+
+.round-full-image {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
+  padding: auto;
 }
 
-.round-title {
-  margin-top: 10px;
+.round-full-title {
   font-size: 14px;
   color: white;
-}
-
-/* Hover estilo Spotify */
-.round-card:hover .round-image {
-  transform: scale(1.05);
-  transition: 0.2s ease;
+  text-align: center;
+  padding: 0 8px;
 }
