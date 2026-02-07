@@ -7,11 +7,6 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center;
-  padding: 0 24px;
-  height: 60px;
-  background: #c50f0f;
-  color: white;
 }
 
 .layout {

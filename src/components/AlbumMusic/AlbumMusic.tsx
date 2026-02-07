@@ -1,3 +1,4 @@
+import CardMusic from '../Card/CardMusic'
 import './AlbumMusic.css'
 
 const AlbumMusic = () => {
@@ -7,7 +8,9 @@ const AlbumMusic = () => {
       <div className="Cards">
         Fernando Pulido <br />
       </div>
-      <div className="Cards-autores">cards autores </div>
+      <div className="Cards-autores">
+        <CardMusic />
+      </div>
       <div className="Cards-albums">cards albums </div>
     </div>
   )

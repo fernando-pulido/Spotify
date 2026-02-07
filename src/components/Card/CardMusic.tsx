@@ -5,7 +5,7 @@ const CardMusic = () => {
     <div className="card">
       <div className="card-top">
         <img
-          src="https://via.placeholder.com/120"
+          src="https://es.pngtree.com/freepng/cute-anime-style-girl_21036715.html"
           alt="imagen"
           className="card-img"
         />
