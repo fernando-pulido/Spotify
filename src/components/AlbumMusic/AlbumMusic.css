@@ -1,11 +1,11 @@
 .content {
-  flex: 1;
   background-color: #111f28;
   padding: 16px;
 }
 
 .Cards {
-  background-color: rgb(72, 255, 0);
+  display: flex;
+  gap: 20px;
 }
 
 .Cards-autores {
