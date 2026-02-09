@@ -1,11 +1,8 @@
 import './card.css'
 
-type CardRoundType = {
-  image: string
-  title: string
-}
+import { type Card } from '../../../type/typeCard'
 
-const CardMusic = ({ image, title }: CardRoundType) => {
+const CardMusic = ({ image, title }: Card) => {
   return (
     <div className="side-card">
       <img src={image} alt={title} className="side-card-image" />

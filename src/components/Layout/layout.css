@@ -2,7 +2,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #121212;
+  background: #889293;
 }
 
 .navbar {
@@ -11,12 +11,12 @@ body {
 
 .layout {
   display: flex;
+  gap: 16px;
 }
 
 .sidebar {
-  width: 220px;
-  background: #111f28;
-  padding: 16px;
+  width: 380px;
+  border: 2px solid rgb(0, 255, 242);
 }
 
 .content {

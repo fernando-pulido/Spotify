@@ -1,11 +1,13 @@
 .content {
   background-color: #111f28;
   padding: 16px;
+  border: 2px solid rgb(20, 226, 65);
 }
 
 .Cards {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 2 columnas */
+  gap: 16px;
 }
 
 .Cards-autores {

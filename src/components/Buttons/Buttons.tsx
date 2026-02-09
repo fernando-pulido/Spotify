@@ -2,7 +2,7 @@ const Buttons = () => {
   return (
     <div className="buttons">
       <button>Todo</button>
-      <button>Musica </button>
+      <button>Music </button>
       <button>Podcast</button>
     </div>
   )

@@ -1,8 +1,8 @@
 import CardMusic from './Card/CardMusic'
-import Img from '../../assets/img/Img.png'
 
 import './AlbumMusic.css'
 import Buttons from '../Buttons/Buttons'
+import { cardsMock } from '../../data/cardsMook'
 
 const AlbumMusic = () => {
   return (
@@ -11,9 +11,9 @@ const AlbumMusic = () => {
         <Buttons />
       </div>
       <div className="Cards">
-        <CardMusic image={Img} title="cantante de musica pop" />
-        <CardMusic image={Img} title="Yeison gimenez " />
-        <CardMusic image={Img} title="bab bunny benito" />
+        {cardsMock.map(card => (
+          <CardMusic image={card.image} title={card.title} key={card.id} />
+        ))}
       </div>
       <div className="Cards-autores">
         <h1>hola</h1>

@@ -1,11 +1,13 @@
-import Img from '../../assets/img/img.png'
+import { cardsMock } from '../../data/cardsMook'
 import CardsLibrary from './CardsLibrary/CardsLibrary'
 
+import './LibraryComponents.css'
 const LibraryComponents = () => {
   return (
-    <div>
-      <CardsLibrary image={Img} title="cantante" />
-      <CardsLibrary image={Img} title="cantante" />
+    <div className="left">
+      {cardsMock.map(card => (
+        <CardsLibrary image={card.image} title={card.title} key={card.id} />
+      ))}
     </div>
   )
 }

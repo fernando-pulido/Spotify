@@ -1,13 +1,14 @@
 .round-full-card {
-  width: 150px;
-  height: 150px;
-  border-radius: 10%;
+  width: 185px;
+  height: 185px;
   background-color: rgba(0, 0, 0, 0.6); /* estilo Spotify */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  box-sizing: border-box; /* 🔑 */
+  overflow: hidden;
+  background: black;
 }
 
 .round-full-card:hover {
@@ -15,16 +16,15 @@
 }
 
 .round-full-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  padding: auto;
 }
 
 .round-full-title {
-  font-size: 14px;
+  font-size: 20px;
   color: white;
   text-align: center;
-  padding: 0 8px;
+  padding: 0 10px;
 }

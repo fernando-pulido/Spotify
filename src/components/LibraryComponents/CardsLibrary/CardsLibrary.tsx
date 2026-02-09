@@ -1,10 +1,8 @@
+import { type Card } from '../../../type/typeCard'
+
 import './CardsLibrary.css'
 
-type CardRoundType = {
-  image: string
-  title: string
-}
-const CardsLibrary = ({ image, title }: CardRoundType) => {
+const CardsLibrary = ({ image, title }: Card) => {
   return (
     <div className="round-full-card">
       <img src={image} alt={title} className="round-full-image" />
