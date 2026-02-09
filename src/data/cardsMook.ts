@@ -45,14 +45,4 @@ export const cardsMock: Card[] = [
     title: 'Pop',
     image: Img2,
   },
-  {
-    id: 2,
-    title: 'Pop',
-    image: Img2,
-  },
-  {
-    id: 3,
-    title: 'Jazz',
-    image: Img3,
-  },
 ]

@@ -11,7 +11,7 @@ body {
 
 .layout {
   display: flex;
-  gap: 16px;
+  gap: 4px;
 }
 
 .sidebar {
@@ -21,7 +21,8 @@ body {
 
 .content {
   flex: 1;
-  padding: 16px;
+  padding: 5px;
+  background: rgb(150, 142, 142);
 }
 
 @media (max-width: 768px) {
