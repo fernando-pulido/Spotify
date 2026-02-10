@@ -1,4 +1,4 @@
-.left {
+.card-playlist {
   display: grid;
   gap: 4px;
   grid-template-columns: repeat(2, 1fr);

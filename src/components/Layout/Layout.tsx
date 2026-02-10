@@ -1,6 +1,7 @@
+import Album from '../Album/Album'
+import Buttons from '../Buttons/Buttons'
 import NavBar from '../NavBar/NavBar'
-import AlbumMusic from '../AlbumMusic/AlbumMusic'
-import LibraryComponents from '../LibraryComponents/LibraryComponents'
+import PlayList from '../PlayList/PlayList'
 
 import './layout.css'
 
@@ -13,10 +14,12 @@ const Layout = () => {
 
       <div className="layout">
         <aside className="sidebar">
-          <LibraryComponents />
+          <Buttons />
+          <PlayList />
         </aside>
         <main className="content">
-          <AlbumMusic />
+          <Buttons />
+          <Album />
         </main>
       </div>
     </>

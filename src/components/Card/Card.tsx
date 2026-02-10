@@ -1,8 +1,8 @@
-import { type Card } from '../../../type/typeCard'
+import { type Card } from '../../type/typeCard'
 
-import './CardsLibrary.css'
+import './Card.css'
 
-const CardsLibrary = ({ image, title }: Card) => {
+const Card = ({ image, title }: Card) => {
   return (
     <div className="round-full-card">
       <img src={image} alt={title} className="round-full-image" />
@@ -11,4 +11,4 @@ const CardsLibrary = ({ image, title }: Card) => {
   )
 }
 
-export default CardsLibrary
+export default Card

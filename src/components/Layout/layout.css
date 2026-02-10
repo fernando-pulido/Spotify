@@ -23,6 +23,35 @@ body {
   flex: 1;
   padding: 5px;
   background: rgb(150, 142, 142);
+  border: 2px solid rgb(20, 226, 65);
+}
+
+.left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+
+  box-sizing: border-box; /* 🔑 */
+
+  overflow: hidden;
+  background-color: #202020;
+  box-sizing: border-box; /* 🔑 */
+  overflow: hidden;
+}
+
+.Cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 2 columnas */
+  gap: 16px;
+  border: 2px solid rgb(226, 20, 37);
+}
+
+.Cards-autores {
+  background-color: rgb(98, 0, 255);
+}
+
+.Cards-albums {
+  background-color: rgb(255, 0, 170);
 }
 
 @media (max-width: 768px) {
