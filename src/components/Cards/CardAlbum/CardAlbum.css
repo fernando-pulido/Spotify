@@ -1,0 +1,58 @@
+.album-card {
+  background-color: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.album-card:hover {
+  background-color: #282828;
+}
+
+.album-card__image {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.album-card__image img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.album-card__play {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1db954;
+  border: none;
+  color: black;
+  font-size: 16px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.album-card:hover .album-card__play {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.album-card__title {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.album-card__description {
+  color: #b3b3b3;
+  font-size: 12px;
+  margin-top: 4px;
+}

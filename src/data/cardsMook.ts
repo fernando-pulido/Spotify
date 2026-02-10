@@ -14,6 +14,7 @@ export const cardsMock: Card[] = [
     id: 2,
     title: 'Pop',
     image: Img2,
+    description: 'album de shakira',
   },
   {
     id: 3,

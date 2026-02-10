@@ -1,4 +1,4 @@
-import Card from '../Card/Card'
+import Card from '../Cards/Card'
 import { cardsMock } from '../../data/cardsMook'
 import './PlayList.css'
 const PlayList = () => {

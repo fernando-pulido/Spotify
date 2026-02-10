@@ -1,6 +1,6 @@
 import Album from '../Album/Album'
-import Buttons from '../Buttons/Buttons'
 import NavBar from '../NavBar/NavBar'
+import Buttons from '../Buttons/Buttons'
 import PlayList from '../PlayList/PlayList'
 
 import './layout.css'
