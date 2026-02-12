@@ -4,6 +4,7 @@ import Buttons from '../Buttons/Buttons'
 import PlayList from '../PlayList/PlayList'
 
 import './layout.css'
+import FavoriteAlbum from '../FavoriteAlbum/FavoriteAlbum'
 
 const Layout = () => {
   return (
@@ -15,10 +16,14 @@ const Layout = () => {
       <div className="layout">
         <aside className="sidebar">
           <Buttons />
+          <br />
           <PlayList />
         </aside>
-        <main className="content">
+        <main className="content2">
           <Buttons />
+          <br />
+          <FavoriteAlbum />
+          <br />
           <Album />
         </main>
       </div>

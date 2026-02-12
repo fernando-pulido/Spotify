@@ -1,2 +1,14 @@
 .buttons {
+  border-radius: 50px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Button {
+  background-color: #202020;
+  padding: 20px;
 }
